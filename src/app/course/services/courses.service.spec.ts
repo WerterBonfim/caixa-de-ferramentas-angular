@@ -2,7 +2,7 @@ import { CoursesService } from "./courses.service";
 
 import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { findLessonsForCourse } from 'server/db-data';
+import { findLessonsForCourse } from 'src/app/fakes/db-data';
 
 
 describe('CoursesService', () => {
